@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(7, 32, 71);
+    color: white;
+}
+.nav-logo{
+    height: 60px;
+    width: 125px;
+    color: white;
+    margin-right: 300px;
+}
+.logo{
+    background-image: url(logo2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 5rem;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+
+.welcome{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    image-rendering:optimizeQuality;
+}
+.our{
+    font-size: 80px;
+    color: rgb(240, 48, 5);
+    font-family: segoe print;
+}
