@@ -1,0 +1,103 @@
+*{
+    background-color: #0be3cd;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    background-image: url(logo2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 5rem;
+}
+
+.wrapper{
+    width: 600px;
+    height: 400px;
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.25);
+    animation: bganimation 10s linear infinite;
+    margin-top: 50px;
+    margin-left: 360px;
+}
+
+@keyframes bganimation{
+    0%{
+        background-image: url(india.jpg);
+    }
+    30%{
+        background-image: url(italy.jpg);
+    }
+    60%{
+        background-image: url(london.jpg);
+    }
+    100%{
+        background-image: url(germany.jpg);
+    }
+}
+
+.cities{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cities select{
+    border: none;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.to{
+    display: flex;
+    gap: 20px;
+}
+
+.to select{
+    border: none;
+}
+
+.ddate{
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+
+
+.rdate{
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+
+
+
+option{
+    font-weight: bolder;
+}
+
+.number{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.home{
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}

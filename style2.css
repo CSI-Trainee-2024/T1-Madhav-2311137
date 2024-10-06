@@ -1,6 +1,7 @@
 *{
-    background-color: rgba(14, 240, 228, 0.1);
+  background-color: #0b89e3;
 }
+
 
 .nav-logo{
     height: 60px;
@@ -36,7 +37,7 @@ pre{
   .card {
     width: 200px; /* Adjust as needed */
     height: 250px; /* Adjust as needed */
-    background-color: rgba(14, 240, 228, 0.1);
+    background-color: #0b89e3;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add transition for smooth effect */
   }
@@ -68,3 +69,18 @@ pre{
   .f i{
     color: red;
   }
+
+
+  .home a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.home{
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
